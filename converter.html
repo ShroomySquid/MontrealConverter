@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Metric/Imperial Unit Conversion</h1>
+      <input type="number" id="theValue" />
+      <button id="convertBtn" onclick="Converter()">Convert</button>
+    </div>
+    <div id="converterResult">
+      <div class="unitConversion">
+        <p>Length (Meter/Feet)</p>
+        <p id="meterFeet">0 meters = 0 feet | 0 feet = 0 meters</p>
+      </div>
+      <div class="unitConversion">
+        <p>Volume (Liters/Gallons)</p>
+        <p id="litersGallons">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+      </div>
+      <div class="unitConversion">
+        <p>Mass (Kilograms/Pounds)</p>
+        <p id="kiloPounds">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+      </div>
+    </div>
+    <p><a href="index.html">Back to the main page</a></p>
+    <script src="index.js"></script>
+  </body>
+</html>
